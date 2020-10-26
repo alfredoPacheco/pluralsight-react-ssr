@@ -1,11 +1,7 @@
 import React from "react";
 
 import ReactDOM from 'react-dom';
+import { App } from './App'
 
-const App = () => (
-    <div>
-        This is a Reeact component!
-    </div>
-)
 
 ReactDOM.render(<App />, document.querySelector('#Container'));
